@@ -167,6 +167,9 @@ thead {
   .main-menu ul li {
     text-transform: uppercase;
   }
+  .tablet {
+    display: none;
+  }
 }
 
 /** Navigation Styling **/
