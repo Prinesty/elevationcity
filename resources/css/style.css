@@ -46,7 +46,7 @@ thead {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#historybanner .jumbotron {
+#historybanner {
   background-image: url("../images/landing1.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
