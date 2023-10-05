@@ -10,11 +10,9 @@ a {
   color:inherit;
   text-decoration: none;
 }
-
 h1, h3, h4, h5, h6 {
   font-family: 'Quicksand', sans-serif;
 }
-
 h3 {
   color: #ffffff;
   font-size: 1.4rem;
@@ -23,7 +21,6 @@ h4 {
   font-weight: bold;
   border-bottom: 2px solid #eee;
 }
-
 h4:after {
     content: "";
     width: 40px;
@@ -43,21 +40,18 @@ thead {
     margin-top: .5rem;
     overflow: auto;
 }
-
 .jumbotron {
   background-image: url("../images/landing.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #historybanner .jumbotron {
   background-image: url("../images/landing1.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 [data-title]:hover:after {
    opacity: 1;
    transition: all 0.1s ease 0.3s;
@@ -95,23 +89,6 @@ thead {
   color: inherit;
 }
 
-
-/** Media Queries Mobile Viewport 380px and lower**/
-@media only screen and (max-width: 380px) {
-  .carousel-inner h1 {
-    font-size: 1.3rem;
-  }
-  .event h5 {
-    font-size: 1.1rem;
-  }
-  .event p {
-    font-size: 0.9rem;
-  }
-  .register iframe {
-    width: 295px;
-  }
-}
-
 /** Media Queries Mobile Viewport **/
 @media only screen and (max-width: 576px) {
   .navHide {
@@ -130,30 +107,8 @@ thead {
     font-size: 1.3rem;
   }
   .navbar-brand img {
-    width: 130px;
+    width: 100px;
   }
-  .group .navbar-brand img {
-    width: 40px;
-  }
-  .mobile-almanac {
-    font-size: 0.7rem;
-  }
-  .mobile-almanac h5 {
-    font-size: 0.7rem;
-  }
-  .register iframe {
-    width: 400px;
-  }
-  .flip-card-desc h5 {
-    font-size: 1rem;
-  }
-  .flip-card-desc h6 {
-    font-size: 0.9rem;
-  }
-}
-
-/** Media Queries Tablet and below**/
-@media only screen and (max-width: 992px) {
   .laptop {
     display: none;
   }
@@ -163,7 +118,7 @@ thead {
 }
 
 /** Media Queries Laptop View **/
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 576px) {
   .main-menu ul li {
     text-transform: uppercase;
   }
@@ -181,18 +136,6 @@ thead {
   color: #dc3545;
 }
 
-/** Main Slideshow **/
-.carousel-caption a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/** Upcoming Events **/
-.upcoming a {
-  text-decoration: none;
-  color: inherit;
-}
-
 /** Footer **/
 footer {
  background-color: #000000;
@@ -203,100 +146,6 @@ footer a:hover {
   color: inherit;
 }
 
-/** HOMEPAGE ENDS **/
-
- /** MINISTRY **/
-.ministry a {
-  text-decoration-line: none;
- }
-.card-header {
-  background-color: #007bff;
-  color: #ffffff;
- }
-.card-header:hover {
-  background: #e9ecef;
-}
-
- /** COMMITTEES **/
- .tab-content a:hover {
-   text-decoration: none;
-   color: #ed1c24;
- }
-
- /** SESSION **/
- .flip-card-front {
-   border-radius: 8px;
-   box-shadow: 0rem 0.8rem 0.5rem 0.8rem rgba(0,0,0,.1);
- }
-
-/** My Church, Announcement, Progammes**/
-.topic h6 {
-    color: #ed1c24;
-    line-height: 2;
-  }
-
-  /** flip card **/
-.card-flip > div {
-    backface-visibility: hidden;
-    transition: transform 400ms ease-in 200ms;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-  }
-.card-front {
-    transform: rotateY(0deg);
-  }
-.card-back {
-    transform: rotateY(180deg);
-    position: absolute;
-    top: 0;
-  }
-.card-flip:hover .card-front {
-    transform: rotateY(-180deg);
-  }
-.card-flip:hover .card-back {
-    transform: rotateY(0deg);
-  }
-
-/** Hymn **/
-.hymn .active {
-  background-color: #dc3545;
-  border-color: inherit;
-  font-weight: bold;
-}
-
 .social a:hover {
   color: #ed1c24;
 }
-
-/** Flip **/
- .card-flip > div {
-   backface-visibility: hidden;
-   transition: transform 400ms ease-in 200ms;
-   width: 100%;
-   height: 100%;
-   margin: 0;
- }
-
- .card-front {
-   transform: rotateX(0deg);
- }
-
- .card-back {
-   transform: rotateX(180deg);
-   position: absolute;
-   top: 0;
- }
-
- .card-flip:hover .card-front {
-   transform: rotateX(-180deg);
- }
-
- .card-flip:hover .card-back {
-   transform: rotateX(0deg);
- }
-
- .flip-card-front {
-  border-radius: 8px;
-  box-shadow: 0rem 0.8rem 0.5rem 0.8rem rgb(0 0 0 / 10%);
- }
