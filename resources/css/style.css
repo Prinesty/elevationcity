@@ -46,12 +46,6 @@ thead {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#historybanner {
-  background-image: url("../images/landing1.jpg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 [data-title]:hover:after {
    opacity: 1;
    transition: all 0.1s ease 0.3s;
