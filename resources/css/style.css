@@ -13,7 +13,7 @@ a {
 
 h3 {
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 h4 {
   font-weight: bold;
@@ -87,16 +87,16 @@ thead {
     display: none;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   h2 {
-    font-size: 1.2rem;
-  }
-  h3 {
     font-size: 1rem;
   }
+  h3 {
+    font-size: 0.9rem;
+  }
   h4 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   .navbar-brand img {
     width: 100px;
